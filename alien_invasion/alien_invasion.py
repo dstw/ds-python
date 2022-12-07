@@ -36,7 +36,7 @@ def run_game():
 		gf.update_screen(ai_settings, screen, stats, ship, aliens, bullets,
 			play_button)
 		gf.check_events(ai_settings, screen, stats, play_button, ship,
-			bullets)
+			aliens, bullets)
 
 		if stats.game_active:
 			ship.update()
